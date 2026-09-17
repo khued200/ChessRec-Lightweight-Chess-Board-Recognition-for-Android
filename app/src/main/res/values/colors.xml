@@ -1,0 +1,12 @@
+<resources>
+    <color name="felt">#132019</color>
+    <color name="felt_deep">#0D1712</color>
+    <color name="panel">#1A2921</color>
+    <color name="ivory">#EDE6D6</color>
+    <color name="walnut">#8A6644</color>
+    <color name="walnut_dark">#4A3320</color>
+    <color name="brass">#C9A227</color>
+    <color name="brass_hi">#E2C25A</color>
+    <color name="text_muted">#9FAC9C</color>
+    <color name="danger">#C1553B</color>
+</resources>

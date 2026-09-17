@@ -1,0 +1,65 @@
+# Built application files
+*.apk
+*.aar
+*.aab
+*.bundle
+*.dex
+
+# Files for/from IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+secrets.properties
+
+# Log files
+*.log
+
+# Android Studio / Jetpack Compose temp files
+.navigation/
+.compose/
+captures/
+.externalNativeBuild
+.cxx/
+
+# Kotlin cache / binaries
+.kotlin/
+*.klib
+
+# Keystore & Signing files
+*.jks
+*.keystore
+*.pepk
+
+# Google Services / Firebase
+google-services.json
+
+# Profiling & Heap Dumps
+*.hprof
+
+# Model files downloaded separately (see app/src/main/assets/models/PUT_MODEL_HERE.txt)
+*.onnx
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor temp / metadata
+*.swp
+*~
+.vscode/
+.fleet/

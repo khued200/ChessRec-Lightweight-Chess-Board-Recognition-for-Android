@@ -1,0 +1,18 @@
+PUT THE MODEL FILE HERE
+========================
+
+Download from Hugging Face (this repo's network sandbox can't reach
+huggingface.co, so this has to be a manual step on your machine):
+
+  https://huggingface.co/joelseytre/chessqueries/resolve/main/chessquerieslite-vits-644-int8.onnx
+
+Save it as exactly:
+
+  app/src/main/assets/models/chessquerieslite-vits-644-int8.onnx
+
+(i.e. delete this README.txt, or just drop the .onnx file next to it — either
+way, ChessQueriesRecognizer.kt loads it from that exact path via
+context.assets.open("models/chessquerieslite-vits-644-int8.onnx")).
+
+License reminder: PolyForm Noncommercial 1.0.0 — personal/noncommercial use
+only. See https://github.com/JSeytre/chessqueries#licenses

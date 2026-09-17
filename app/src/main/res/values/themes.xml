@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.ChessVision" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/felt_deep</item>
+        <item name="android:windowBackground">@color/felt</item>
+    </style>
+</resources>
