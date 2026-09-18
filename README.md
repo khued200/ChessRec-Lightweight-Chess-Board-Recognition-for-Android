@@ -1,5 +1,9 @@
 # ChessRec (Android)
 
+<p align="center">
+  <img src="demo.gif" width="320" alt="Android App Demo">
+</p>
+
 Kotlin + Jetpack Compose + CameraX, with real on-device recognition via
 [ChessQueries](https://github.com/JSeytre/chessqueries)
 (`chessquerieslite-vits-644-int8.onnx`, run through ONNX Runtime Mobile).
