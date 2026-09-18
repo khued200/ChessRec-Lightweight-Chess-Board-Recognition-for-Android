@@ -56,8 +56,6 @@ and androidx/CameraX artifacts are fetched from. To get an installable APK:
   typography exactly.
 - `minSdk 24` / `compileSdk 34`. Camera permission is requested at runtime;
   denial falls back to the gallery picker automatically.
-- The launcher icon is a plain vector adaptive icon (no binary assets) — swap
-  `ic_launcher_foreground.xml` for real artwork whenever you like.
 - The model asset adds ~36MB to the APK. Fine for personal use; if this ever
   grows beyond a personal project, look at Play Feature Delivery (on-demand
   asset packs) instead of bundling it in the base APK — and re-check the
